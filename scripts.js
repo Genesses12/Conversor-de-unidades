@@ -54,7 +54,7 @@ const messageElement = document.querySelector("#message");
         const fromLabel = fromElement.options[fromElement.selectedIndex].text;
         const toLabel = toElement.options[toElement.selectedIndex].text;
 
-        const message = `${inputElement.value} ${fromLabel} equivalem a ${toLabel}`;
+        const message = `${inputElement.value} ${fromLabel} equivalem a ${result} ${toLabel}`;
         messageElement.textContent = message;
         return;
 }
